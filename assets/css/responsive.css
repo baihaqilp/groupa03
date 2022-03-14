@@ -1,0 +1,59 @@
+/*Phone size Break*/
+
+@media(max-width:1000px){
+    .content-left h1{
+        font-size:30px;
+    }
+    .content-left h2{
+        font-size:25px;
+    }
+    .content-right h1{
+        font-size:30px;
+    }
+    .content-right h2{
+        font-size:25px;
+    }
+
+    .content-left img {
+        width: 250px;
+    }
+
+    .content-right img {
+        width: 250px;
+    }
+}
+
+@media(max-width:763px){
+    .nav-menu{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    .content-right img{
+        display: none;
+    }
+
+    .content-left img{
+        display: none;
+    }
+
+    .content-left h1{
+        font-size:40px;
+    }
+    .content-left h2{
+        font-size:35px;
+    }
+    .content-right h1{
+        font-size:40px;
+    }
+    .content-right h2{
+        font-size:35px;
+    }
+
+    .language{
+        width: 100%;
+    }
+}
