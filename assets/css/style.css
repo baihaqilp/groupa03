@@ -11,8 +11,8 @@ h1, h2, h3, h4, h5, h6, p ,div {
     margin: 0;
 }
 body {
-    background-image:linear-gradient(221.21deg, #BCB8BC 1.02%, rgba(243, 241, 242, 0.175311) 59.03%, rgba(255, 253, 253, 0) 73.42%);
-    background-size: cover;
+    background-image: url(../img/topbg.png);
+    background-repeat: no-repeat;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -32,7 +32,6 @@ header {
     position: fixed;
     z-index: 10;
     top : 0px;
-    background-color: #BCB8BC;
     opacity: 0.8;
 }
 
@@ -48,6 +47,7 @@ header {
     float: right;
     margin-right: -25px;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .nav-menu a {
@@ -75,9 +75,15 @@ header {
 .content-wrapper {
     width: 100%;
     padding: 150px  0 250px 0;
-    background-image:linear-gradient(221.21deg, #BCB8BC 1.02%, rgba(243, 241, 242, 0.175311) 59.03%, rgba(255, 253, 253, 0) 73.42%);
+}
+
+.top{
+    
+
     background-size: cover;
 }
+
+
 
 
 .content-left {
